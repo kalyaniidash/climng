@@ -1,0 +1,26 @@
+add package.json
+install few necessary package
+express ,dotenv, body-parser,mongoose,
+create a basic node server
+ENV FILE CRAETION
+DECLARE PORT
+CALL THE PORT FROM ENV FILE
+add a notes file in .gitignore
+add custom command in package.json
+print the system variable in console
+initiate the server and open the port
+---create config directory
+-db connectivity file
+-basic blueprint of file (import,component,export module)
+-try catch
+-async await
+-create a models directory--
+----add a single model for patients
+---- add a few datatype in json object ->string ,datatype
+    -call the model in routes
+-add a new routes  
+  -all patients routes
+  -basics skeleton
+   -crud method
+   -mongo function call
+   -show in friont end correct output respond with json and 404 error
