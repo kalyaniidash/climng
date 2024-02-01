@@ -5,7 +5,7 @@ const router = express.Router();
     res.send("test api route is working fine")
  })
  
- //@route GET aoi/books
+ //@route GET api/patients
  //@descripton  give all the patients
  //@access public
  router.get('/', (req, res) => {
@@ -18,8 +18,8 @@ const router = express.Router();
  });
 
  
-// @route GET api/books/:id
-// @description Get single book by id
+// @route GET api/patients/:id
+// @description Get single patient by id
 // @access Public
 //READ ACCESS
 router.get('/:id', (req, res) => {
