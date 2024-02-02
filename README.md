@@ -1,12 +1,20 @@
-### clinic managment
+## 🚀 About Me
+Hi there ! I am kalyani das 
 
-## description
 
-## how does it work
+# Project Title
 
-## How to run your instance
+Clinic Management
 
-## How does it work
- 
- ## References
- 
+
+## Deployment
+
+To deploy this project run
+
+```bash
+  npm run start
+```
+
+
+## 🛠 Skills
+Javascript, HTML, CSS...
