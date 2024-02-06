@@ -4,7 +4,7 @@ import axios from 'axios';
 
 import { useNavigate } from 'react-router-dom';
 
-const CreatePatient = (props) => {
+const Home = (props) => {
   // Define the state with useState hook
  
 
@@ -12,11 +12,11 @@ const CreatePatient = (props) => {
     <div className='CreatePatient'>
       <div className='container'>
         <div className='row'>
-          <h1>new patient</h1>
+          <h1>Home page</h1>
         </div>
       </div>
     </div>
   );
 };
 
-export default CreatePatient;
+export default Home;
