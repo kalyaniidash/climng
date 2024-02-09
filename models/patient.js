@@ -27,4 +27,4 @@ const PatientSchema= new mongoose.Schema({
         default: Date.now
     }
 })
-module.exports = Patient= mongoose.model('patient', PatientSchema)
+module.exports = Patient;

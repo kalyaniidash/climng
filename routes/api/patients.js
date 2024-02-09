@@ -11,7 +11,7 @@ const router = express.Router();
  router.get('/', (req, res) => {
   //  patient.find()
    //   .then((patients) => res.json(patients))
-  //  .then((patients) => 
+   
   
   //  .catch((err) => res.status(404).json({ nopatientsfound: 'No Patients found' }));
   res.json({ ok:"all patients are there"})
