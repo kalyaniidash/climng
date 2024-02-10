@@ -3,6 +3,7 @@ const express=require("express");
 const connectDB = require("./config/db");
 const cors = require("cors");
 const patients =require("./routes/api/patients");
+const path = require('path');
 //Connect to mongodb
 // connectDB();
 //initiating the app
@@ -14,8 +15,24 @@ app.use(cors());
 app.use(express.json({
     extended:false
 }))
+
 //use the api group instead of multiple paths for multiple routes
 app.use("/api/patients",patients)
+//static files
+app.use(express.static(
+    path.join(__dirname, "./client/build")
+    ));
+app.get("*", function (_, res) {
+    res.sendFile(
+        path.join(__dirname, "./client/build/index.html"),
+        function (err) {
+            res.status(500).send(err);
+        }
+    );
+    
+});
+
+//starting server
 const port= process.env.PORT || 5000;
 app.listen(port,()=>
     console.log(`Server is Running on port ${port}`)

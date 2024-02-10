@@ -24,3 +24,4 @@ initiate the server and open the port
    -crud method
    -mongo function call
    -show in friont end correct output respond with json and 404 error
+   -add the backend and fronend into a single server
