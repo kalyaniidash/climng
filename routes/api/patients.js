@@ -1,6 +1,7 @@
 const express =require("express");
 ///handle all the routes parameter with ease
 const router = express.Router();
+const Patient = require("../../models/patient")
  router.get("/test",(req,res)=>{
     res.send("test api route is working fine")
  })
@@ -9,7 +10,7 @@ const router = express.Router();
  //@descripton  give all the patients
  //@access public
  router.get('/', (req, res) => {
-   patient.find()
+   Patient.find()
      .then((patients) => res.json(patients))
    
   

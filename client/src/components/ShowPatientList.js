@@ -3,7 +3,7 @@ import React, { useState, useEffect } from 'react'
 import '../App.css'
 import axios from 'axios'
 import { Link } from 'react-router-dom'
-import climngcard from './climngcard'
+import ClimngCard from './climngcard'
 
 function ShowPatientList() {
   const [patients, setPatients] = useState([])
@@ -23,7 +23,7 @@ function ShowPatientList() {
   const PatientList = 
     patients.length === 0
      ? 'there is no patient record!'
-     : patients.map((patient, k) => <climngCard patient={patient} key={k} />)
+     : patients.map((patient, k) => <ClimngCard patient={patient} key={k} />)
 
   return (
    <div className='ShowPatientList'>

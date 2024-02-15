@@ -1,31 +1,27 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
-import axios from 'axios';
+import '../App.css';
 
-import { useNavigate } from 'react-router-dom';
-
-const climngcard= (props) => {
-  // Define the state with useState hook
- 
-  const patient = props.patient
+const ClimngCard = (props) => {
+  const patient = props.patient;
   return (
     <div className='card-container'>
       <img
-        src='https://images.unsplash.com/photo-1495446815901-a7297e633e8d'
-        alt='patients'
+        src='https://www.vidyohealth.com/wp-content/uploads/2023/03/hero-childrens-hospital2.jpg'
+        alt='Patients'
         height={200}
       />
       <div className='desc'>
         <h2>
-          <Link to={ `/show-patient/${patient._id}` }>
-            {patient.title}  
-          </Link> 
+          <Link to={`/show-patient/${patient._id}`}>
+            {patient.name}
+          </Link>
         </h2>
         <h3>{patient.id}</h3>
-        <p>{patient.name}</p>
+        <p>{patient.age}</p>
       </div>
-    </div>  
-  )
+    </div>
+  );
 };
 
-export default climngcard;
+export default ClimngCard;

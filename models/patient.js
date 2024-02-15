@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 const PatientSchema= new mongoose.Schema({
-    patient_id:{
+    id:{
         type: Number,
         required: true
     },
@@ -27,4 +27,4 @@ const PatientSchema= new mongoose.Schema({
         default: Date.now
     }
 })
-module.exports = Patient;
+module.exports = Patient= mongoose.model('patient', PatientSchema)
