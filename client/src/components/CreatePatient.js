@@ -11,12 +11,12 @@ const CreatePatient = (props) => {
   // Define the state with useState hook
   const navigate = useNavigate();
   const [patient, setPatient] = useState({
-    Patient_id: '',
-    Name: '',
-    Address: '',
-    Phone_no: '',
-    Gender: '',
-    Age: '',
+    patient_id: '',
+    name: '',
+    address: '',
+    phone_no: '',
+    gender: '',
+    age: '',
   });
   const [showToast, setShowToast] = useState(false);
 
@@ -61,18 +61,18 @@ const CreatePatient = (props) => {
             <form noValidate onSubmit={onSubmit}>
               <div className='form-group'>
                 <input
-                  type='number'
+                  type='Number'
                   placeholder='Enter Your ID'
                   name='patient_id'
                   className='form-control'
-                  value={patient.id}
+                  value={patient.patient_id}
                   onChange={onChange}
                 />
                 
             </div>
             <div className='form-group'>
                 <input
-                  type='text'
+                  type=' String'
                   placeholder='Enter Your Name'
                   name='patient_name'
                   className='form-control'
@@ -83,7 +83,7 @@ const CreatePatient = (props) => {
 
               <div className='form-group'>
                 <input
-                  type='text'
+                  type=' String'
                   placeholder='Enter Your Address'
                   name='patient_address'
                   className='form-control'
@@ -94,18 +94,18 @@ const CreatePatient = (props) => {
 
               <div className='form-group'>
                 <input
-                  type='number'
+                  type='Number'
                   placeholder='Enter Your Phone.no'
                   name='patient_phnno.'
                   className='form-control'
-                  value={patient.phnno}
+                  value={patient.phone_no}
                   onChange={onChange}
                 />
               </div>
 
               <div className='form-group'>
                 <input
-                  type='text'
+                  type='String'
                   placeholder='Enter Your Gender'
                   name='patient_gender'
                   className='form-control'
@@ -115,7 +115,7 @@ const CreatePatient = (props) => {
               </div>
               <div className='form-group'>
                 <input
-                  type='number'
+                  type='Number'
                   placeholder='Enter Your Age'
                   name='patient_age'
                   className='form-control'
@@ -123,11 +123,21 @@ const CreatePatient = (props) => {
                   onChange={onChange}
                 />
               </div>
-
-
-
+              <div className='form-group'>
+                <input
+                  type='Date'
+                  placeholder='Enter Your Date'
+                  name='join_date'
+                  className='form-control'
+                  value={patient.join_date}
+                  onChange={onChange}
+                />
+              </div>
+              <input
+                type='submit'
+                className='btn btn-outline-warning btn-block mt-4'
+              />
             </form>
-            
               </div>
         </div>
       </div>
