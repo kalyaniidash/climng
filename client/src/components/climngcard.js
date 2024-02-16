@@ -13,7 +13,7 @@ const ClimngCard = (props) => {
       />
       <div className='desc'>
         <h2>
-          <Link to={`/show-patient/${patient._id}`}>
+          <Link to={`/show-patientDetails/${patient._id}`}>
             {patient.name}
           </Link>
         </h2>

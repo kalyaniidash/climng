@@ -1,29 +1,29 @@
 
 .CreatePatient {
-  background-color: black;
+  background-color: rgb(233, 171, 245);
   min-height: 100vh;
   color: beige;
 }
 
 .ShowPatientDetails {
-  background-color: black;
+  background-color: rgb(233, 171, 245);
   min-height: 100vh;
   color: beige;
 }
 
 .UpdatePatientInfo {
-  background-color: black;
+  background-color:rgb(233, 171, 245) ;
   min-height: 100vh;
   color: beige;
 }
 
 .ShowPatientList {
-  background-color: black;
+  background-color: rgb(233, 171, 245);
   height: 100%;
   width: 100%;
   min-height: 100vh;
   min-width: 100px;
-  color: beige;
+  color:#bc6c25;
 }
 
 
@@ -38,9 +38,10 @@
 
 .card-container {
   width: 250px;
-  border: 1px solid rgb(165, 165, 165);
+  border: 1px solid rgb(213, 121, 121);
   margin: 0 auto;
   border-radius: 5px;
+  /* //hide a srcollbar */
   overflow: hidden;
 }
 
@@ -64,4 +65,37 @@
   color: #6c757d;
   font-size: 1em;
   padding: 10px 0 10px 0;
+}
+.bgcolor{
+  background-color: rgb(214, 156, 241);
+}
+.sdvm{
+  background-color: rgb(214, 156, 241);
+
+}
+.class a{
+  color:black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.home{
+  background-image: url(https://www.shutterstock.com/image-photo/stethoscope-purple-add-adhd-awareness-260nw-2230651233.jpg);
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.head{
+  height: 200px;
+  justify-self: center;
+  display: block;
+  background-color: rgba(79, 74, 74, 0.7);
+  color: white;
+  font-weight: bold;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
 }

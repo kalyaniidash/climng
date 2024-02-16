@@ -3,8 +3,8 @@ import { Link } from 'react-router-dom';
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
 import ShowPatientList from './ShowPatientList';
-// import { Slide, ToastContainer, toast } from 'react-toastify';
-// import 'react-toastify/dist/ReactToastify.css';
+import { Slide, ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 import Navbar from './Navbar';
 import Footer from './Footer';
@@ -22,7 +22,7 @@ const CreatePatient = (props) => {
     age: '',
     join_date: '',
   });
-  // const [showToast, setShowToast] = useState(false);
+  const [showToast, setShowToast] = useState(false);
 
   const onChange = (e) => {
     setPatient({ ...patient, [e.target.name]: e.target.value });
@@ -44,21 +44,21 @@ const CreatePatient = (props) => {
           join_date: '',
         });
         //show the success alert
-        // toast.success('Patient added successfully!', {
-        //   position: "top-right",
-        //   autoClose: 500,
-        //   hideProgressBar: false,
-        //   closeOnClick: true,
-        //   pauseOnHover: true,
-        //   draggable: true,
-        //   progress: undefined,
-        //   theme: "dark",
-        //   transition: { Slide },
-        // });
+        toast.success('Patient added successfully!', {
+          position: "top-right",
+          autoClose: 500,
+          hideProgressBar: false,
+          closeOnClick: true,
+          pauseOnHover: true,
+          draggable: true,
+          progress: undefined,
+          theme: "dark",
+          transition: { Slide },
+        });
 
         // Delay the navigation slightly to allow the toast to be seen
         setTimeout(() => {
-          // setShowToast(false); // Hide the toast
+          setShowToast(false); // Hide the toast
           navigate('/'); // Navigate to homepage
         }, 500); // Adjust the timeout as needed
 
@@ -68,17 +68,17 @@ const CreatePatient = (props) => {
         console.log('The error is -> ')
         console.log(err)
         // Show the success alert
-        // toast.error('Something went wrong, try again!', {
-        //   position: "top-right",
-        //   autoClose: 5000,
-        //   hideProgressBar: false,
-        //   closeOnClick: true,
-        //   pauseOnHover: true,
-        //   draggable: true,
-        //   progress: undefined,
-        //   theme: "dark",
-        //   transition: Slide,
-        //   });
+        toast.error('Something went wrong, try again!', {
+          position: "top-right",
+          autoClose: 5000,
+          hideProgressBar: false,
+          closeOnClick: true,
+          pauseOnHover: true,
+          draggable: true,
+          progress: undefined,
+          theme: "dark",
+          transition: Slide,
+          });
         });
       };
   
@@ -86,7 +86,8 @@ const CreatePatient = (props) => {
   return (
     <div className='CreatePatient'>
       <Navbar />
-      {/* <ToastContainer
+      {
+       <ToastContainer
         position="top-right"
         autoClose={500}
         hideProgressBar={false}
@@ -98,7 +99,8 @@ const CreatePatient = (props) => {
         pauseOnHover
         theme="light"
         transition={Slide}
-      /> */}
+      /> 
+      }
 
       <div className='container'>
         <div className='row'>

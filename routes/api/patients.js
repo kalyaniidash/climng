@@ -26,7 +26,7 @@ const Patient = require("../../models/patient")
 //READ ACCESS
 router.get('/:id', (req, res) => {
    Patient.findById(req.params.id)
-   .then((patients) => res.json(patient))
+   .then((patient) => res.json(patient))
    .catch((err) => res.status(404).json({ nopatientfound: 'No patient found' }));
 //    res.json({
 //        ok:"GET the patients by id"})
