@@ -72,6 +72,9 @@ function UpdatePatientInfo(props) {
   return (
     <div className='UpdatePatientInfo'>
       <Navbar />
+      <br />
+      <br />
+      <br />
       
       <div className='container'>
         <div className='row'>
@@ -190,6 +193,9 @@ function UpdatePatientInfo(props) {
           </form>
         </div>
       </div>
+      <br />
+      <br />
+      <br />
 
       <Footer />
     </div>
