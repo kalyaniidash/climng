@@ -36,7 +36,7 @@ function ShowPatientList() {
         </div>
 
         <div className='col-md-11'>
-          <Link to='/create-patient' className='btn btn-outline-warning float-right'>
+          <Link to='/create-patient' className='btn  float-right button'>
             + Add New Patient
           </Link>
           <br />

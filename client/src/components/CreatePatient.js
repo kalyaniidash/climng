@@ -86,7 +86,6 @@ const CreatePatient = (props) => {
   return (
     <div className='CreatePatient'>
       <Navbar />
-      {
        <ToastContainer
         position="top-right"
         autoClose={500}
@@ -100,7 +99,9 @@ const CreatePatient = (props) => {
         theme="light"
         transition={Slide}
       /> 
-      }
+      <br />
+      <br />
+      <br />
 
       <div className='container'>
         <div className='row'>

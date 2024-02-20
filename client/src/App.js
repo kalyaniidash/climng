@@ -7,6 +7,7 @@ import CreatePatient from './components/CreatePatient';
 import ShowPatientDetails from './components/ShowPatientDetails';
 import UpdatePatientInfo from './components/UpdatePatientInfo';
 import Home from './components/Home';
+import AllRoutes from './components/routes';
 
 const App =() =>{
   return (
@@ -18,6 +19,7 @@ const App =() =>{
         <Route path="/create-patient" element={<CreatePatient  />} />
         <Route path="/show-patientDetails/:id" element={<ShowPatientDetails/>} />
         <Route path="/edit-patient/:id" element={<UpdatePatientInfo />} />
+        <Route path="/routes" element={<AllRoutes />} />
         </Routes>
       </div>
     </Router>

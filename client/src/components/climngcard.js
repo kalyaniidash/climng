@@ -7,18 +7,17 @@ const ClimngCard = (props) => {
   return (
     <div className='card-container'>
       <img
-        src='https://www.vidyohealth.com/wp-content/uploads/2023/03/hero-childrens-hospital2.jpg'
+        src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9szj3smxnWp7IaSRcxMLyaHZsyAnk5b48Ag&usqp=CAU' 
         alt='Patients'
         height={200}
       />
       <div className='desc'>
         <h2>
           <Link to={`/show-patientDetails/${patient._id}`}>
-            {patient.name}
+            {patient.name}<br />
           </Link>
-        </h2>
+        </h2><br />
         <h3>{patient.id}</h3>
-        <p>{patient.age}</p>
       </div>
     </div>
   );

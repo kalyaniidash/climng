@@ -71,6 +71,7 @@ function ShowPatientDetails(props) {
   return (
     <div className='ShowPatientDetails'>
       <Navbar />
+      <br /><br /><br/>
       <ToastContainer
         position="top-right"
         autoClose={5000}
@@ -133,7 +134,7 @@ function ShowPatientDetails(props) {
               <div className='col-md-4'>
                 <button
                   type='button'
-                  className='btn btn-outline-danger btn-lg btn-block'
+                  className='btn button btn-lg btn-block'
                   onClick={() => {
                     onDeleteClick(patient._id);
                   }}
@@ -144,13 +145,13 @@ function ShowPatientDetails(props) {
               <div className='col-md-4'>
                 <Link
                   to={`/edit-patient/${patient._id}`}
-                  className='btn btn-outline-info btn-lg btn-block'
+                  className='btn button btn-lg btn-block'
                 >
                   Edit Patient
                 </Link>
               </div>
               <div className='col-md-4'>
-                <Link to='/all-patient' className='btn btn-outline-warning btn-lg btn-block'>
+                <Link to='/all-patient' className='btn button btn-lg btn-block'>
                   Show Patient List
                 </Link>
               </div>

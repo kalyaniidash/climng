@@ -70,7 +70,7 @@ router.put('/:id', (req, res) => {
 // @description find a patient by id and deleted
 // @access Public
 router.delete('/:id', (req, res) => {
-   Patient.findByIdAndRemove(req.params.id, req.body)
+   Patient.findByIdAndDelete(req.params.id, req.body)
      .then((patient) => res.json({ mgs: 'Patient entry deleted successfully' }))
      .catch((err) => res.status(404).json({ error: 'couldnt deletethis patient' }));
  });
