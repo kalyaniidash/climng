@@ -91,8 +91,7 @@ function ShowPatientDetails(props) {
           <div className='col-md-8'>
             <h1 className='display-4 text-center'>Patient's Record</h1>
             <p className='lead text-center'>View Patient's Info</p>
-            <hr /> <br />
-
+            <hr />
             <div className='row justify-content-center'>
               <div className='col-md-12'>
                 <table className='table table-striped table-bordered table-dark'>
