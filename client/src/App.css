@@ -168,11 +168,12 @@
   font-weight: 300 ;
   text-align: center;
   font-size: 13px;
+  color:black
 
 }
 
 .web-desc h6 {
-  color: #6c757d;
+  color:black;
   font-size: 1em;
   padding: 10px 0 10px 0;
   text-align: center;
@@ -247,4 +248,14 @@
 
 .tbr {
   background: -moz-repeating-linear-gradient(rgba(43, 85, 122, 0.755), rgb(70, 151, 232))
+}
+/* .font{
+  color:black;
+  font-family: Arial, Helvetica, sans-serif;
+
+} */
+.font{
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }

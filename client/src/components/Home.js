@@ -16,6 +16,7 @@ const Home = (props) => {
             <h1 className='display-5 text-center heading'>CLINIC MANAGEMENT SYSTEM</h1>
             <h6 className='lead text-center'>Welcome to our Website</h6>
             <p className='lead text-center'>This Can Help To Manage The Doctors Appointments </p>
+            
           </div>
         </div>
       </div>
