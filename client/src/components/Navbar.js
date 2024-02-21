@@ -8,28 +8,33 @@ const Navbar = () => (
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNavDropdown">
-        <ul class="navbar-nav ms-auto font">
+        <ul class="navbar-nav ms-auto ">
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="/" ><i class="fa fa-home"/>
 Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#"><i class="fas fa-info"/>About</a>
+            <a class="nav-link" href="#">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#"><i class="fas fa-user"/>Contact</a>
+            <a class="nav-link" href="#">Contact</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/routes">
-              <i class="fas fa-route"></i> Routes
+            <a class="nav-link" href="/Techs">Technology</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/routes">Routes</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://docs.google.com/document/d/e/2PACX-1vS7Z44Qmef7Zlw0_17uYIAe4QS8YFqrwS_eyehS2AcvGSlSSJmZZ4VTYqIfbIxdq2NuNI0TP1iNkZz7/pub" target="_blank" rel="noopener noreferrer">
+               Document 
             </a>
-          </li>
+          </li>
           <li class="nav-item">
-            <a class="nav-link" href="https://docs.google.com/document/d/e/2PACX-1vT-LSOv5WkrdtR9I1qZINS7yLbccGkn8mqfyMmfo9bUQD7hAh8YfUNRnU-53FBCGdMmdfO1TbiQE9SU/pub" target="_blank" rel="noopener noreferrer">
-            <i class="fas fa-file"></i>
- Document
-            </a>
-          </li>
+                        <a className="nav-link" href="https://github.com/kalyaniidash/climng" target="_blank" rel="noopener noreferrer">
+                             <i class="fab fa-github" style={{ fontSize: '25px' }}></i>
+                        </a>
+                    </li>
         </ul>
       </div>
     </div>

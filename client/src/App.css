@@ -116,7 +116,7 @@
 
 .card-container {
   width: 250px;
-  height: 400px;
+  height: auto;
   border: 1px solid rgb(165, 165, 165);
   margin: 0 auto;
   border-radius: 5px;
@@ -125,7 +125,7 @@
   cursor: pointer;
   transition: 0.2s ease;
   border-radius: 20px;
-  background-color: #6c6d92;
+  background-color: #bcbeed;
 }
 
 
@@ -162,21 +162,25 @@
   }
 }
 
-
+.web-desc {
+  width:100vw;
+}
 
 .web-desc h6,p {
   font-weight: 300 ;
   text-align: center;
-  font-size: 13px;
-  color:black
+  font-size: 13;
+  font-family:Georgia, 'Times New Roman', Times, serif;
 
 }
 
 .web-desc h6 {
-  color:black;
+  color:#6c757d;
   font-size: 1em;
   padding: 10px 0 10px 0;
   text-align: center;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size:35px;
 
 }
 
@@ -185,11 +189,16 @@
   opacity: 0.6;
   /* background-image: url("paper.gif"); */
 }
-
+.home{
+  background-image: url(https://www.shutterstock.com/image-photo/stethoscope-purple-add-adhd-awareness-260nw-2230651233.jpg);
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 .button {
   height: auto;
-  width: auto;
+  width: 200px;
   font-weight: 800;
   text-align: center;
   background-color: rgb(36, 125, 150);
@@ -254,8 +263,8 @@
   font-family: Arial, Helvetica, sans-serif;
 
 } */
-.font{
+/* .font{
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-style: normal;
-}
+} */

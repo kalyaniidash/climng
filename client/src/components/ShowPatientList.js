@@ -4,6 +4,8 @@ import '../App.css'
 import axios from 'axios'
 import { Link } from 'react-router-dom'
 import ClimngCard from './climngcard'
+import Navbar from './Navbar'
+import Footer from './Footer'
 
 function ShowPatientList() {
   const [patients, setPatients] = useState([])
@@ -27,6 +29,7 @@ function ShowPatientList() {
 
   return (
    <div className='ShowPatientList'>
+    <Navbar/>
     <div className='container'>
       <div className='row'>
         <div className='col-md-12'>
@@ -48,6 +51,7 @@ function ShowPatientList() {
         <div className='list'>{PatientList} </div>
   
     </div>
+    <Footer/>
    </div>
 
 

@@ -8,6 +8,7 @@ import ShowPatientDetails from './components/ShowPatientDetails';
 import UpdatePatientInfo from './components/UpdatePatientInfo';
 import Home from './components/Home';
 import AllRoutes from './components/routes';
+import Tech from './components/Technology';
 
 const App =() =>{
   return (
@@ -20,6 +21,7 @@ const App =() =>{
         <Route path="/show-patientDetails/:id" element={<ShowPatientDetails/>} />
         <Route path="/edit-patient/:id" element={<UpdatePatientInfo />} />
         <Route path="/routes" element={<AllRoutes />} />
+        <Route path="/Techs" element={<Tech />} />
         </Routes>
       </div>
     </Router>
