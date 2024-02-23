@@ -72,14 +72,9 @@ function UpdatePatientInfo(props) {
   return (
     <div className='UpdatePatientInfo'>
       <Navbar />
-      <br />
-      <br />
-      <br />
-      
       <div className='container'>
         <div className='row'>
           <div className='col-md-8 m-auto'>
-            <br /><br/>
             <Link to='/all-patient' className='btn btn-outline-info  btn-block '>
               Show Patient List
             </Link>

@@ -37,9 +37,9 @@ function ShowPatientList() {
           <h2 className='display-4 text-center'>Patients List</h2>
 
         </div>
-
+<br />
         <div className='col-md-11'>
-          <Link to='/create-patient' className='btn btn-outline-info btn-sm btn-block'>
+          <Link to='/create-patient' className='btn btn btn-secondary btn-sm btn-block bg-dark'>
             + Add New Patient
           </Link>
           <br />

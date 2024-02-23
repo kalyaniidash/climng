@@ -107,7 +107,7 @@ const CreatePatient = (props) => {
         <div className='row'>
           <div className='col-md-8 m-auto'>
             <br />
-            <Link to='/all-patient ' className='btn button float-right'>
+            <Link to='/all-patient ' className='btn btn btn-secondary float-right bg-dark'>
               show Patient List
             </Link>
           </div>
