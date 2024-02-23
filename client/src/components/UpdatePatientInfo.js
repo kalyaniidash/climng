@@ -79,8 +79,8 @@ function UpdatePatientInfo(props) {
       <div className='container'>
         <div className='row'>
           <div className='col-md-8 m-auto'>
-            <br />
-            <Link to='/all-patient' className='btn btn-outline-warning float-left'>
+            <br /><br/>
+            <Link to='/all-patient' className='btn btn-outline-info  btn-block '>
               Show Patient List
             </Link>
           </div>
@@ -185,9 +185,9 @@ function UpdatePatientInfo(props) {
 
             <button
               type='submit'
-              className='btn btn-outline-info btn-lg btn-block'
+              className='btn button btn-lg btn-block'
             >
-              Update Book
+              Update Patient
             </button>
             <br /> <br />
           </form>

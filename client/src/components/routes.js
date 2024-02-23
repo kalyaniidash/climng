@@ -6,7 +6,7 @@ const AllRoutes = () =>(
     <div className='AllRoutes'>
         <Navbar />
         <br />
-        <br /><br />
+        <br /><br/>
         <div className='container'>
             <h3 className='display-4'>Backend Routes</h3>
             <ul>

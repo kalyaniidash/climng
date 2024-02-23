@@ -1,13 +1,13 @@
 import React from "react";
 
 const Navbar = () => (
-  <nav class="navbar navbar-expand-lg navbar-light text-dark h-auto button-2 ">
+  <nav class="navbar navbar-expand navbar-light text-dark h-auto button-2 ">
     <div class="container-fluid">
       <a class="navbar-brand" href="/">Patient Management Project</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <div class="collapse navbar-collapse py-0 " id="navbarNavDropdown">
         <ul class="navbar-nav ms-auto ">
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="/" ><i class="fa fa-home"/>

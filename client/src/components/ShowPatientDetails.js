@@ -71,7 +71,7 @@ function ShowPatientDetails(props) {
   return (
     <div className='ShowPatientDetails'>
       <Navbar />
-      <br /><br /><br/>
+      <br/><br/><br/>
       <ToastContainer
         position="top-right"
         autoClose={5000}
@@ -87,7 +87,7 @@ function ShowPatientDetails(props) {
       />
 
       <div className='container'>
-        <div className='row justify-content-center'>
+        <div className='row justify-content-center'><br/>
           <div className='col-md-8'>
             <h1 className='display-4 text-center'>Patient's Record</h1>
             <p className='lead text-center'>View Patient's Info</p>

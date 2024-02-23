@@ -86,13 +86,13 @@
 }
 
 .UpdatePatientInfo {
-  background-color: #7a7bbc;
+  background-color: #b5b6e1;
   min-height: 100vh;
   color: f4a261;
 }
 
 .ShowPatientList {
-  background-color: #7a7bbc(26, 171, 103, 0.734);
+  background-color: #b5b6e1;
   height: 100%;
   width: 100%;
   min-height: 100vh;
@@ -207,10 +207,10 @@
   border-radius: 2px;
   font-size: auto;
   display: block;
-  margin: 0 auto;
+  margin: auto;
   transition: 0.2s all;
   border: none;
-  border-radius: 10px;
+  border-radius: 15px;
   box-shadow: -4px 2px 12px 1px rgb(21, 77, 161);
 }
 
@@ -230,7 +230,7 @@
 
 .button-2 {
   margin: auto;
-  height: 20px;
+  height: 10px;
   display: block;
   box-shadow: -4px 2px 12px 1px rgb(21, 77, 161);
   color: white;
@@ -258,13 +258,3 @@
 .tbr {
   background: -moz-repeating-linear-gradient(rgba(43, 85, 122, 0.755), rgb(70, 151, 232))
 }
-/* .font{
-  color:black;
-  font-family: Arial, Helvetica, sans-serif;
-
-} */
-/* .font{
-  font-family: "Poppins", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-} */

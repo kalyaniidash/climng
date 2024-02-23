@@ -107,7 +107,7 @@ const CreatePatient = (props) => {
         <div className='row'>
           <div className='col-md-8 m-auto'>
             <br />
-            <Link to='/all-patient ' className='btn btn-outline-warning float-left'>
+            <Link to='/all-patient ' className='btn button float-right'>
               show Patient List
             </Link>
           </div>
@@ -193,7 +193,7 @@ const CreatePatient = (props) => {
               </div>
               <input
                 type='submit'
-                className='btn btn-outline-warning btn-block mt-4'
+                className='btn button btn-block mt-4'
               />
 
 
