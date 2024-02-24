@@ -17,6 +17,8 @@
   background-position: right top;
   background-size: cover;
   min-height: 100vh;
+  margin-top: 105px;
+  
 }
 
 .App-logo {
@@ -39,6 +41,7 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  
 }
 
 .App-link {
@@ -141,7 +144,7 @@
   font-size: 1em;
   font-weight: 400;
   padding: rgb(101, 182, 97) 20px;
-  font-size: 80px;
+  font-size: 7vw;
   color: #fff;
   text-align: center;
   -webkit-animation: CLINIC 1s ease-in-out infinite alternate;
@@ -257,4 +260,9 @@
 
 .tbr {
   background: -moz-repeating-linear-gradient(rgba(43, 85, 122, 0.755), rgb(70, 151, 232))
+}
+.navbar{
+  position: fixed;
+  background: white;
+  
 }

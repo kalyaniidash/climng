@@ -1,7 +1,7 @@
 import React from "react";
 
 const Navbar = () => (
-  <nav class="navbar navbar-expand navbar-light text-dark h-auto button-2 ">
+  <nav class="navbar navbar-expand navbar-light text-dark h-auto button-2 mb-3">
     <div class="container-fluid">
       <a class="navbar-brand" href="/">Patient Management Project</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
