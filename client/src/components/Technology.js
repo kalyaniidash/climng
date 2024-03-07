@@ -8,7 +8,7 @@ const Tech = () =>(
         <br />
         <br />
         <br />
-        <div className='container'>
+        <div className='container'><br/>
             <h3 className='display-4'>Technology</h3>
             <ul>
                 <li>Cyclic App </li>

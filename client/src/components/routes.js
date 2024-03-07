@@ -7,7 +7,7 @@ const AllRoutes = () =>(
         <Navbar />
         <br />
         <br /><br/>
-        <div className='container'>
+        <div className='container'><br/>
             <h3 className='display-4'>Backend Routes</h3>
             <ul>
                 <li>Create: api/patient/ </li>
@@ -17,7 +17,7 @@ const AllRoutes = () =>(
                 <li>Delete: api/patient/:id</li>
             </ul>
         </div>
-        <div className='container'>
+        <div className='container'><br/>
             <h3 className='display-4'>Frontend Routes</h3>
             <ul>
                 <li>Create: /create-patient </li>
